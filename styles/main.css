@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Robtronika;
+   src: url(../resources/fonts/Robtronika-4Bq8p.ttf);
+}
+body {
+  width: 100%;
+  font-family: 'Roboto';
+  color: white;
+
+  font-size: 20px;
+  background-size: contain;
+}
+.hero {
+  background-image: url("../resources/images/meshbotshd.jpg");
+  background-size: cover;
+  height: 800px;
+}
+.bg-hero-container {
+  background-color: rgba(0,0,0,0.65);
+  width: 100%;
+  height: 800px;
+  align-content: center;
+  text-align: center;
+}
+
+.hero-container {
+  font-size: 25px;
+  width: 60%;
+  height: 400px;
+  padding: 20px;
+  align-content: center;
+  margin: 0 auto;
+
+}
+.bg-about-container {
+  background-color: rgba(0,0,0,1);
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.about-container {
+  display: inline-block;
+  width: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.about-container a {
+  text-decoration: none;
+  font-size: 24px;
+  color: inherit;
+}
+.about-container a:hover {
+  color: gray;
+}
+.bg-section {
+  background-color: rgba(255,255,255,1);
+  width: 100%;
+  margin: 0 auto;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+}
+.section-container {
+  width: 80%;
+  align-content: center;
+  text-align: center;
+  padding: 25px;
+  margin: 0 auto;
+}
+.section-container img{
+  width: 100%;
+}
+.section-container h1 {
+  font-size: 50px;
+}
+.section-container p {
+  font-size: 25px;
+}
+
+.bg-section-4 {
+  background-color: rgba(234,234,234,1);
+  width: 100%;
+  margin: 0 auto;
+  color: black;
+}
+.bg-section-5 {
+  background-color: rgba(255,255,255,1);
+  width: 100%;
+  margin: 0 auto;
+  color: black;
+}
+.proposal-container {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+  padding: 75px 0 25px 0;
+}
+.proposal-object {
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  display: inline-block;
+}
+.proposal-object li {
+  font-weight: bold;
+}
+
+.row {
+  text-align: center;
+
+}
+.column {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid green;
+  margin: 5px;
+}
+
+.pie-chart {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+    background: conic-gradient(
+        #ff6384 0% 5%,
+        #36a2eb 5% 30%,
+        #ffce56 30% 55%,
+        #4bc0c0 55% 100%
+    );
+}
+
+.pie-chart:after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  .hero {
+
+  }
+  .header-container {
+    justify-content: center;
+  }
+  .logo {
+    font-size: 24px;
+  }
+  header {
+    height: 40px;
+    align-content: center;
+  }
+  header nav {
+    display: none;
+  }
+  .hero-container {
+    padding-top: 50px;
+  }
+  .bg-section {
+    grid-template-columns: 1fr;
+  }
+  .about-container a {
+    font-size: 16px;
+  }
+  .column {
+    border: none;
+  }
+  .proposal-container {
+    grid-template-columns: 1fr;
+  }
+  #chart {
+    display: none;
+  }
+  .pie-chart {
+    display: none;
+  }
+  .footer-links {
+    display: none;
+  }
+  .footer-social {
+    padding-left: 10px;
+  }
+  #bot a {
+    font-size: 0;
+  }
+  #bot a::after {
+    content:'Robots';
+    font-size: initial;
+  }
+}
+@media only screen and (max-width:450px) {
+  header .logo {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .hero-container h1 {
+    font-size: 32px;
+  }
+}

@@ -8,11 +8,19 @@
 }
 @font-face {
   font-family: Invader;
-   src: url(../resources/fonts/AlienInvaderitalic-mLxpG.ttf);
+   src: url(../resources/fonts/AlienInvader-PKnPm.ttf);
 }
 @font-face {
   font-family: Robot;
    src: url(../resources/fonts/Robot9000-MVxZx.ttf);
+}
+@font-face {
+  font-family: SpaceQuest;
+   src: url(../resources/fonts/SpaceQuest-Xj4o.ttf);
+}
+@font-face {
+  font-family: Exarros;
+   src: url(../resources/fonts/Exarros-GOn9q.ttf);
 }
 body {
 

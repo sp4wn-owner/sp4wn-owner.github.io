@@ -32,7 +32,7 @@ body {
   background-size: contain;
 }
 .hero {
-  background-image: url("../resources/images/meshbotshd.jpg");
+  background-image: url("../resources/images/meshbots.jpg");
   background-size: cover;
   height: 800px;
 }

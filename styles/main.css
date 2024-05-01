@@ -6,7 +6,16 @@
   font-family: Robtronika;
    src: url(../resources/fonts/Robtronika-4Bq8p.ttf);
 }
+@font-face {
+  font-family: Invader;
+   src: url(../resources/fonts/AlienInvaderitalic-mLxpG.ttf);
+}
+@font-face {
+  font-family: Robot;
+   src: url(../resources/fonts/Robot9000-MVxZx.ttf);
+}
 body {
+
   width: 100%;
   font-family: 'Roboto';
   color: white;

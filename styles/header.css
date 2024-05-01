@@ -18,13 +18,14 @@ header {
 }
 
 .logo {
-  font-family: Robtronika;
-  font-size: 30px;
   font-weight: bold;
+  font-size: 35px;
+
 }
 
 nav ul {
-    list-style: none;
+  font-family: Robtronika;
+  list-style: none;
 }
 
 nav ul li {

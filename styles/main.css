@@ -100,6 +100,18 @@ body {
 .section-container p {
   font-size: 25px;
 }
+.section-container a {
+  font-family: Robtronika;
+  font-size: 18px;
+  background-color: #8F00FF;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.section-container a:hover {
+  color: lime;
+}
 
 .bg-section-4 {
   background-color: rgba(234,234,234,1);
